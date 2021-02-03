@@ -1,1 +1,0 @@
-print('\n====================\nName: ' + player.name + Fore.MAGENTA + '\nHP: ' + str(player.hp) + Fore.GREEN + '\nClass: ' + player.race + Fore.YELLOW + '\nGold: ' + str(player.gold) + Fore.LIGHTBLUE_EX + '\nMana: ' + str(player.mana) + Fore.BLUE +'\nDef: ' + str(player.defense) + Fore.RED + '\nDmg: ' + str(player.attack) + Fore.RESET + '\n==================== ')
