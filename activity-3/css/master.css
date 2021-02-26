@@ -41,3 +41,9 @@ body{
 p::first-line{
     color:maroon;
 }
+
+img{
+    float:right;
+    height:250px;
+    width:350px;
+}
