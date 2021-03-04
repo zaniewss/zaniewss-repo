@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Project 1 Sam Zaniewski</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/pokemon.ttf" rel="font-family" type="tff" id="pokemon">
+    
+
+  </head>
+
+
+
+  <body>
+	  <h1>Welcome to my Project Website!</h1>
+    <h2 id='greeting'></h2>
+	  <a href='https://www.pokemon.com/us/' target="_blank" ><img src="images/pikaHi.gif"></a>
+	  <p>This website needs the following Requirements for the Project!</p>
+
+	  <ul>
+		  <ol>HTML</ol>
+		  <li>Using a variety of the following elements: html, head, title, body, h1, ul, a, img, table, p (Check!) </li>
+		  <li>Link to an external font (Check!)</li>
+
+      <ol>CSS</ol>
+      <li>All styles should be defined in an external CSS file (Check!)</li>
+      <li>Use a variety of selectors targeting elements, classes, and ids (Check!)</li>
+      <li>Use the font that you imported into your html file. You can apply it to all text by setting the font-family property for the body element. (Check!)</li>
+      
+      <ol>JavaScript</ol>
+      <li>Inject dynamic content into your website. Dynamic content typically comes from a database or by responding to user interaction. At this point, we're just trying to understand the basics of JavaScript and how to control aspects of a web page. As such, we'll hardcode some data in our JavaScript file and inject it into our web page, as we did in Activity 4. (Check!) </li>
+      <li>Use variables to store some data. (Check!) </li>
+      <li>Use the DOM to reference elements in your web page and inject content.</li>
+
+    </ul>
+
+	<table id="pokemon-starters">
+		<tr>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Dex Number</th>
+        </tr>
+        <tr id="pika">
+            <td>Electric</td>
+            <td>Pikachu</td>
+            <td>#025</td>
+        </tr>
+        <tr id="char">
+            <td>Fire</td>
+            <td>Charmander</td>
+            <td>#004</td>
+        </tr>
+        <tr id="squi">
+            <td>Water</td>
+            <td>Squirtle</td>
+            <td>007</td>
+        </tr>
+        <tr id="bulba">
+            <td>Grass</td>
+            <td>Bulbasaur</td>
+            <td>001</td>
+        </tr>
+	</table>
+
+    <button onclick="alert('Hi! You Clicked me!')" id="clicky">Press Me!</button>
+
+    
+    <script src="script.js"></script>
+  </body>
+
+</html>

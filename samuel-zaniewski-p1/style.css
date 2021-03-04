@@ -1,0 +1,52 @@
+@font-face { font-family: pokemon; src: url('pokemon.tff'); } 
+
+h1 { font-family: "pokemon";}
+h2{
+    color:azure;
+}
+ul{
+    font-family: "courier";
+    color:greenyellow;
+    background-color:gray;
+}
+
+html{
+    background-color:black;
+    color:aliceblue;
+    font-family:sans-serif;
+}
+
+
+table{
+    background-color:darkgray;
+    color:darkred;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+tr#pika{
+    color:yellow;
+}
+
+tr#char{
+    color:rgb(255, 190, 71);
+}
+
+tr#squi{
+    color:lightblue;
+}
+
+tr#bulba{
+    color:lightgreen;
+}
+ul{
+    color:whitesmoke;
+}
+
+li{
+    background-color:lightgrey;
+    color:mediumblue;
+}
+
+p{
+    font-family:fantasy
+}
