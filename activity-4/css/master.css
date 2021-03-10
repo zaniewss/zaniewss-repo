@@ -1,0 +1,49 @@
+h1{
+    color:#ccff00;
+    font-family:monospace;
+}
+
+a{
+    font-family:monospace;
+    background-color:#ccff00;
+    line-height:2cm;
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: blue;
+    color:white;
+}
+
+a:visited{
+    color:silver;
+}
+
+h3{
+    font-family:monospace;
+    color:rgb(194, 13, 13);
+    font-style:italic;
+    background-color: honeydew;
+}
+
+p{
+    font-family:monospace;
+    color:lime;
+    font-size: 4mm;
+}
+
+body{
+    background: grey;
+}
+
+p::first-line{
+    color:maroon;
+}
+
+img{
+    float:right;
+    height:250px;
+    width:350px;
+}
