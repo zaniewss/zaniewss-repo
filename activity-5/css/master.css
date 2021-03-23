@@ -1,0 +1,24 @@
+#header-img{
+    height:200px;
+    width: 900px;
+    left:0;
+    padding:0cm;
+}
+html{
+    background-color:grey;
+    font-family: Open Sans;
+}
+
+h1{
+    color:#33ff00;
+}
+
+#author{
+    color:darkorange;
+    font-style:oblique;
+}
+
+#p1-name, #p2-name, #p3-name{
+    color:rgb(80, 83, 245);
+    
+}
