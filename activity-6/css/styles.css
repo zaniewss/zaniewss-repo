@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'MyWebFont';
+    src: url('FSEX300.tff') format('truetype');
+}
+
+body {
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    color: cyan;
+}
+
+.messages {
+    margin-bottom: 20px;
+    background-color:darkslategray;
+}
+
+.out-message{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.in-message{
+    padding: 5px;
+    background-color: green;
+    color:white;
+}
