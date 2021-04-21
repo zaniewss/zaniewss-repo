@@ -1,7 +1,11 @@
 body{
     font-family: sans-serif;
     margin: auto 30px;
-    color: #0f3
+    color: red;
+}
+
+h1{
+    color:#0f3;
 }
 
 html{
@@ -11,7 +15,7 @@ html{
 ul{
     /* Border solid 1px #555*/ 
     margin: 0;
-    color: #0f3
+    color: black;
 }
 
 li{
