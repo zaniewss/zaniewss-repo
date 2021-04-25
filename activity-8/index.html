@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- NOTE! I am not too sure why the hiding and script part of this isn't working... It is linked corectly and everything... please help when looking at this!-->
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Activity 8" />
+	<meta name="author" content="Sam Zaniewski" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<title>Activity 8</title>
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1 class = "header-title">My Gamer Blog</h1>
+        <div class="header-menu">
+            <button id="new-button">New</button>
+        </div>
+    </header>
+    <main>
+        <section id="display-content"></section>
+    </main>
+    <footer>
+        Xbox vs Sony? Nah, Nintendo all the way :D
+    </footer>
+
+    <!-- Modal Dialog-->
+    <div class="modal" id="modal-dialog">
+        <section>
+            <h2>Title</h2>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </section>
+        <section>
+            <h2>Content of Message</h2>
+            <textarea name="edit-content-text" id="edit-content-text" cols="80" rows="8"></textarea>
+            <span id="edit-content-message"></span>
+        </section>
+        <footer>
+            <button id="cancel-button">Cancel</button>
+            <button id="save-button">Save</button>
+        </footer>
+    </div>
+    <div id="modal-backdrop"></div>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
