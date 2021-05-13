@@ -1,0 +1,37 @@
+html{
+    background-color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    background-color: darkslategrey;
+    color: cyan;
+}
+
+br{
+    background-color: black;
+}
+
+a{
+    color: rgb(76, 0, 197);
+    background-color:darkorange;
+    margin: 5px;
+    border:black;
+    border-style:solid;
+    font-style: initial;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: normal;
+}
+
+button{
+    color: rgb(76, 0, 197);
+    background-color:darkorange;
+    margin: 5px;
+    border:black;
+    border-style:solid;
+    font-style: initial;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: normal;
+}
